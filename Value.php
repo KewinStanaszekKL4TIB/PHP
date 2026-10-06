@@ -1,10 +1,12 @@
 <?php
  $value=5;
- function functionValue($vakue){
-    $value++;
-    echo $value. "<br>";
+ function functionValue($val){
+    $val++;
+    echo $val. "<br>";
  }
    
-  functionValue($value);
-  echo $Value;
+  functionReference($value);
+  echo $value;
 ?>
+
+//Referencja jest to powiazanie zmienne z inna zmienna
