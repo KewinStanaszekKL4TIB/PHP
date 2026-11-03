@@ -5,7 +5,7 @@
         $suma = 0;
         $ilosc = 0;
         while ($ilosc < count($liczby)){
-            $suma += $liczby[$ilosc];
+           
             $ilosc++;
         }
         return $suma;
